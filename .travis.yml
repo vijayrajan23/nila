@@ -13,10 +13,10 @@ deploy:
   edge: true
   provider: elasticbeanstalk
   region: "ap-south-1"
-  app: "Docker_vijay"
-  env: "DockerVijay-env"
+  app: "Nila"
+  env: "Nila-env"
   bucket_name: "elasticbeanstalk-ap-south-1-907225840730"
-  bucket_path: "Docker_vijay"
+  bucket_path: "Nila"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
